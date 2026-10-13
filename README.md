@@ -22,7 +22,6 @@ Funcionários registram despesas, aprovadores analisam os pedidos, o financeiro 
 - [Decisões de comportamento](#decisões-de-comportamento)
 - [Testes unitários](#testes-unitários)
 - [Qualidade de código e CI](#qualidade-de-código-e-ci)
-- [Documentação adicional](#documentação-adicional)
 - [Integrantes](#integrantes)
 
 ## Funcionalidades
@@ -488,22 +487,9 @@ Cobertura por área:
 ./scripts/Invoke-CodeQuality.ps1
 ```
 
-- As regras de pontuação estão em [docs/code-quality-rules.md](docs/code-quality-rules.md).
-
-## Documentação adicional
-
-- [Enunciado](docs/ENUNCIADO.md)
-- [Requisitos e contratos](docs/REQUISITOS.md)
-- [Rubrica](docs/RUBRICA.md)
-- [Matriz de autorização](docs/MATRIZ-AUTORIZACAO.md)
-- [Processo no GitHub](docs/PROCESSO-GITHUB.md)
-- [Uso de Inteligência Artificial](docs/USO-DE-IA.md)
-- [Regras do pipeline de qualidade](docs/code-quality-rules.md)
-
 ## Integrantes
 
-| Nome | GitHub |
-|---|---|
-| `<nome do integrante 1>` | `<usuario>` |
-| `<nome do integrante 2>` | `<usuario>` |
-| `<nome do integrante 3>` | `<usuario>` |
+| Nome | GitHub | RM
+|---|---|---|
+| `Guilherme Lunghini Teixeira` | `glunghini` | `RM 556892` |
+| `Marchel Augusto Ribeiro de Matos` | `Chel2815` | `RM 99856` |
