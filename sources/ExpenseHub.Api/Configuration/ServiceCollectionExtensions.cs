@@ -2,6 +2,7 @@ using System;
 using System.Text.Json.Serialization;
 using ExpenseHub.Api.Application.Admin;
 using ExpenseHub.Api.Application.Auth;
+using ExpenseHub.Api.Application.Expenses;
 using ExpenseHub.Api.Data;
 using ExpenseHub.Api.Security;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -57,6 +58,8 @@ internal static class ServiceCollectionExtensions
         services.AddScoped<TokenService>();
         services.AddScoped<AuthService>();
         services.AddScoped<AdminUserService>();
+        services.AddScoped<IExpenseRepository, ExpenseRepository>();
+        services.AddScoped<ExpenseService>();
 
         return services;
     }

@@ -46,6 +46,7 @@ internal static class Program
 
         app.MapAuthEndpoints();
         app.MapAdminEndpoints();
+        app.MapExpenseEndpoints();
 
         await app.RunAsync();
     }
